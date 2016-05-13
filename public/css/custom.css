@@ -1,0 +1,264 @@
+menu {
+    padding: 20px 0px;
+    background-color: #005FB7;
+    background-size: cover
+}
+
+menu .conteudo {
+    background: none !important;
+}
+
+menu a {
+    color: #fff;
+    font-family: keep
+}
+
+menu .conteudo * {
+    float: left
+}
+
+menu .logo {
+    width: 100%;
+    max-width: 150px;
+    margin-right: 30px
+}
+
+menu ul li {
+    list-style-type: none;
+    padding: 0px 15px
+}
+
+#login {
+    background-image: url("../img/bg.png");
+    background-size: cover
+}
+
+#login form {
+    width: 100%;
+    max-width: 350px
+}
+
+#login form img {
+    width: 100%;
+    margin-bottom: 20px
+}
+
+#login form input {
+    width: 100%;
+    padding: 15px;
+    background-color: #fff;
+    margin: 5px 0px;
+    border: 0px
+}
+
+#login form input[type="submit"] {
+    background-color: #3d8fd8;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    color: #fff
+}
+
+#login form input[type="submit"]:hover {
+    background-color: #7ebef7
+}
+
+#kanbans .coluna_x3 {
+    padding: 15px;
+}
+
+#kanbans .coluna_x3 .kanban {
+    background: #FDFFBF;
+    border-radius: 5px;
+    -webkit-transition: 0.5s all ease; /* É para pega no Chrome e Safira */
+    -moz-transition: 0.5s all ease; /* Firefox */
+    -o-transition: 0.5s all ease;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14),0 2px 1px -1px rgba(0,0,0,.12);
+}
+
+#kanbans .coluna_x3 .kanban:hover {
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.2),0 10px 10px 0 rgba(0,0,0,.14),0 2px 1px -1px rgba(0,0,0,.12);
+    cursor: pointer;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transition: 0.5s all ease; /* É para pega no Chrome e Safira */
+    -moz-transition: 0.5s all ease; /* Firefox */
+    -o-transition: 0.5s all ease;
+}
+
+
+#kanbans .coluna_x3 .kanban .titulo {
+    background: #FAFDA7;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px
+}
+
+#kanbans .coluna_x3 .kanban .main {
+    padding: 25px 15px 15px 15px
+}
+
+#kanbans .coluna_x3 .kanban .main .afazer {
+    width: 100%;
+    font-weight: bold;
+    background: #F3C1C1;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #EA1B1B;
+    border-radius: 3px;
+    color: #EA1B1B;
+}
+
+#kanbans .coluna_x3 .kanban .main .fazendo {
+    width: 100%;
+    font-weight: bold;
+    background: #ABD6FF;
+    border: 1px solid #29659E;
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 5px;
+    color: #29659E;
+}
+
+#kanbans .coluna_x3 .kanban .main .feito {
+    width: 100%;
+    font-weight: bold;
+    background: #BEFFCA;
+    border: 1px solid #3AB350;
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 5px;
+    color: #3AB350;
+}
+
+#kanban h1 {
+    margin-left: 15px;
+    font-size: 30px
+}
+
+#kanban .coluna_x3 {
+    padding: 15px
+}
+
+#kanban .coluna_x3 h3 {
+    text-align: center
+}
+
+#kanban .coluna_x3 .postit {
+    margin: 15px 0px;
+    background: #fafda5;
+    border-radius: 5px;
+    padding: 15px
+}
+
+#kanban .coluna_x3 .postit .titulo {
+    margin-bottom: 15px;
+    text-align: left;
+    font-weight: bold
+}
+
+.btn{
+    border-radius: 0px;
+}
+
+.pagination li span{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.pagination li a{
+    margin-left: 2px;
+    margin-right: 2px;
+    color: #005DB3;
+}
+
+.pagination li a:hover{
+    color: #ffffff;
+    background-color:#005DB3 ;
+    border-color: #005DB3;
+}
+
+
+.pagination .active span{
+    background-color: #005DB3;
+    border-color: #005DB3;
+}
+
+.pagination .active span:hover{
+    background-color: #005DB3;
+    border-color: #005DB3;
+}
+
+.postit{
+    margin-top:10px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14),0 2px 1px -1px rgba(0,0,0,.12);
+    background-color: #FDFFBF;
+}
+
+.postit:hover{
+    cursor: move;
+}
+
+.postit .title{
+    background-color: #FAFDA7;
+    padding: 10px;
+}
+
+.postit .content{
+    padding: 10px;
+}
+
+
+
+.dropzone{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+}
+
+.project{
+    margin-top: 10px;
+}
+
+.project .col-lg-4{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.project .panel{
+    border-radius: 0px;
+}
+
+.project .panel-body{
+    padding: 0px 15px 15px;
+}
+
+
+#do .postit{
+    border-left:5px solid #EA1B1B;
+}
+
+
+#doing .postit{
+    border-left:5px solid #29659E
+}
+
+#done .postit{
+    border-left:5px solid #3AB350;
+}
+
+#done .title{
+    text-decoration:line-through;
+}
+
+
+.form-control{
+    border-radius: 0px;
+}
+
+.error{
+    color: #E00E0E;
+
+}
