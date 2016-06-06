@@ -16,8 +16,10 @@
                             <div class="drag" style="min-height: 300px">
                                 @foreach($project['do'] as $do)
                                     <div class="postit" data-id="{{$do['id']}}">
-                                        <div class="title"><h4>{{$do['title']}}</h4></div>
-                                        @if(!empty($do['description']))
+                                        <div class="title">
+                                            <h4>{{$do['title']}}</h4>
+                                        </div>
+                                      @if(!empty($do['description']))
                                             <div class="content">
                                                 {{ $do['description'] }}
                                             </div>

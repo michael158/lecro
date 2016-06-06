@@ -37,11 +37,14 @@
         function makePostIt(postit) {
             var html = '<div class="postit ui-sortable-handle" data-id="' + postit.id + '">';
             html += '       <div class="title"><h4>' + postit.title + '</h4></div>';
-            html += '          <div class="content">';
-            html += postit.description;
-            html += '           </div>';
+            if (postit.description != '') {
+                html += '          <div class="content">';
+                html += postit.description;
+                html += '           </div>';
+            }
             html += '       </div>';
             html += '   </div>';
+
             return html;
         }
 

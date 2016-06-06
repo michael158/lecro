@@ -13,5 +13,11 @@ class PostIt extends Model
         return $this->belongsTo(Project::class);
     }
 
-
+    public static function build()
+    {
+        static $instance = null;
+        if (is_null($instance))
+            $instance = new self;
+        return $instance;
+    }
 }

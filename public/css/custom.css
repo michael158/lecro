@@ -80,9 +80,6 @@ menu ul li {
 #kanbans .coluna_x3 .kanban:hover {
     box-shadow: 0 1px 3px 0 rgba(0,0,0,.2),0 10px 10px 0 rgba(0,0,0,.14),0 2px 1px -1px rgba(0,0,0,.12);
     cursor: pointer;
-    -moz-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -o-transform: scale(1.1);
     -webkit-transition: 0.5s all ease; /* É para pega no Chrome e Safira */
     -moz-transition: 0.5s all ease; /* Firefox */
     -o-transition: 0.5s all ease;
@@ -97,7 +94,7 @@ menu ul li {
 }
 
 #kanbans .coluna_x3 .kanban .main {
-    padding: 25px 15px 15px 15px
+    padding: 10px 15px 15px 15px
 }
 
 #kanbans .coluna_x3 .kanban .main .afazer {
@@ -157,6 +154,11 @@ menu ul li {
     margin-bottom: 15px;
     text-align: left;
     font-weight: bold
+}
+
+#kanbans .coluna_x3 .btn-delete a{
+    padding:5px;
+    color: #C3C730;
 }
 
 .btn{

@@ -38,7 +38,7 @@
 		<div class="conteudo">
 			<a href="{{ url('') }}"><img class="logo" src="{{ url('img/logobranco.png') }}" alt=""></a>
 			<ul>
-				<li><a href="">Kanbans</a></li>
+				<li><a href="{{  url('') }}">Kanbans</a></li>
 				<li><a href="">Meus dados</a></li>
 				<li><a href="{{  url('logout') }}">Sair</a></li>
 			</ul>
